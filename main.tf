@@ -7,6 +7,10 @@ terraform {
 }
 
 resource "spacelift_stack" "example-stack" {
+  github_enterprise {
+    namespace = "akmal-spacelift" # The GitHub organization / user the repository belongs to
+  }
+
   name = var.new_stack_name
 
   administrative    = true
