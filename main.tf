@@ -11,9 +11,9 @@ resource "spacelift_stack" "example-stack" {
 
   administrative    = true
   autodeploy        = false
-  branch            = "master"
-  description       = "Shared production infrastructure (networking, k8s)"
-  repository        = "testing-spacelift"
+  branch            = "main"
+  description       = "simple gcp compute instance"
+  repository        = "stack_with_dependencies"
   terraform_version = "0.12.27"
 }
 
