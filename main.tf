@@ -17,7 +17,7 @@ resource "spacelift_stack" "example-stack" {
   autodeploy        = false
   branch            = "main"
   description       = "simple gcp compute instance"
-  repository        = "akmal-spacelift/stack_for_module_usage"
+  repository        = "stack_for_module_usage"
   terraform_version = "0.12.27"
 }
 
