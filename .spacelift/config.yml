@@ -1,14 +1,4 @@
 version: "1"
-module_version: 0.0.49
+module_version: 0.0.1
 runner_image: spacelift/runner:latest
 
-tests:
-  - name: Simple Usage
-    project_root: examples/simple-usage
-
-  - name: Stack with Env Vars
-    project_root: examples/stack-with-env-vars
-
-  - name: Stack with Env Vars (TF 0.15)
-    project_root: examples/stack-with-env-vars
-    terraform_version: 0.15.5
