@@ -4,5 +4,5 @@ output "new_stack_id" {
 }
 
 output "hello" {
-  value = "hello"
+  value = "hello world"
 }
